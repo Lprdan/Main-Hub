@@ -7,5 +7,7 @@ Elementos usados: HTML | CSS | JavaScript
 
 objetivo do site: O site tem como objetivo obter algumas informações publicas minha através de uma forma de fácil acesso a todos que tenham o link para acessar, Também tem como função divulgar um pouco do meu trabalho para que consiga atrair Leads futuramente... .
 
+SITE ONLINE: https://lprdan.netlify.app/
+
 
 (Código de livre acesso, podendo ser editado por terceiros! é necessário apenas aprender a usar a API do Spotify, é simples de aprender no YouTube é possível achar de forma fácil) 👍
