@@ -118,6 +118,7 @@ body {
     padding: 10px 0;
     justify-content: center;
     margin-top: 10px;
+    position: relative;
 }
 
 .social-links img {
@@ -125,6 +126,8 @@ body {
     height: 35px;
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: none;
+    position: relative;
+    z-index: 2;
 }
 
 .social-links a {
@@ -132,6 +135,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .social-links a:hover img {
@@ -139,29 +143,13 @@ body {
     filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.3));
 }
 
-.social-links a {
-    background-color: transparent;
-    padding: 0;
+.social-links a::before {
+    display: none;
 }
 
 .social-links a:hover {
     background-color: transparent;
     transform: none;
-}
-
-.social-links a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.social-links a:hover::before {
-    opacity: 1;
 }
 
 .spotify-container {
